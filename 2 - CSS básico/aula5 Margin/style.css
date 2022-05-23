@@ -1,0 +1,18 @@
+body {                 
+   background: #dfdfdf;
+}
+
+p {
+  color: rgb(34, 34, 34);
+}
+
+.foto-de-perfil {
+  width: 200px;
+  border: 2px solid #ffffff; /*Nome é SHORTHAND*/
+  border-radius: 50% ; /*deixar as bordas mais arredondadas*/
+  
+  /*margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: 500px;*/
+  margin: 30px 30px 30px 30px; /*shorthand*/
+}
