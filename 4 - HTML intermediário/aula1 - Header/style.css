@@ -1,0 +1,28 @@
+* {
+    /* = seletor universal CSS, usado para selecionar todos os itens do arquivo HTML,
+     para estilizar as seções da sua pagina web. */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* define como a width e o height de um elemento são calculados, devem incluir: padding 
+    e borders ou não.*/
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    font-size: 40px;
+    padding: 5%;
+    text-align: center;
+    background-color: rgb(76 73 73 / 81%);
+    /*RGBA (RED,GREEN,BLUE, ALPHA) A = opacity*/
+    color: rgb(241, 241, 241);
+}
+
+.header::first-letter {
+    /*:: first-letter = pseudo-elemento*/
+    text-transform: uppercase;
+    /*transforma a primeira letra em MAIUSCULA*/
+}

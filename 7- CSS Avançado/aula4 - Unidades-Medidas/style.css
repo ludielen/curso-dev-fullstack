@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 50px;
+}
+
+body {
+  font-size: 12px; /*para tela menor*/
+}
+
+.box {
+  width: 100px;   /*unidade de medida em px muitas vezes não deve ser utilizada
+   devido ao tamanho da tela ao qual o usuario vai acessar o site*/
+  height: 100px;
+  background-color: black;
+}
+
+/*unidades de medidas relative*/
+
+.box2 {
+  width: 100%; /*porcentagem bastante usada no design responsivo*/
+  height: 100px;
+  background-color: pink;
+}
+
+.box3 {
+  width: 100vw; /*viewport width*/
+  height: 100vh; /*viewport height*/
+  background-color: aqua;
+}
+
+p {
+  font-size: 2em; /*relative ao font-size que estiver definido no elemento pai.utilizar para trabalhar com responsividade ou seja que se adque a tamanho de telas diferentes.*/
+  color: red;
+}
+
+.box4 {
+  font-size: 2rem; /*relative ao elemento root 2rem*50px = 100px*/
+  color:blue;
+} 
+
+.box4 {
+  width: 100vw;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+

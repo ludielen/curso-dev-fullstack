@@ -1,0 +1,36 @@
+/*Pseudo-elementos estiliza partes especificas de um elemento*/
+
+::selection { /* altera a cor do texto quando selecionamos*/
+    color:pink;
+    background:black;
+}
+
+p::first-line { /*estiliza a primeira linha do paragrafo <p>*/
+    color:orange;
+}
+
+p::first-letter { /*estiliza a primeira letra do paragrafo <p>*/
+    color:red;
+    font-size:50px;
+}
+
+h1::before { /*usado para inserir algum conteúdo, imagem antes do <h1>, não é
+    um elemento caixa por isso adicionamos display:block;*/
+    background: url(http://simpleicon.com/wp-content/uploads/rocket.png);
+    background-size: cover; /*adicionado para cobrir a area toda 25px*/
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    display: inline-block; /*adicionado inline-bloco para definir width e height no elemento*/
+    content:""; /*Obrigatótio dentro do before, mesmo sem conteúdo ""*/
+}
+
+h1::after { /*insere conteudo,imagem depois do <h1>*/
+    background: url(http://simpleicon.com/wp-content/uploads/rocket.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    display: inline-block;
+    content:"";
+}

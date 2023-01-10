@@ -1,0 +1,35 @@
+* {
+    width: 200px;
+    height: 200px;
+}
+
+
+div.ex1{
+    background-color: yellow;
+    overflow: scroll;
+    overflow-x:  hidden; /* especifica se o conteúdo deve ser recortado, adicionado 
+    uma barra de rolagem ou exibido o conteúdo de estouro de um elemento
+    de nivel de bloco, quando ele transbordar nas bordas esquerda e direita.*/
+
+    /*Overflow-y = quando ele transbordar nas bordas superior e inferior (emcima e em baixo) */
+}
+
+div.ex2 {
+    overflow: hidden; /*oculta o que transbordou para fora da caixa*/
+    background-color: blue;
+}
+
+div.ex3 {
+    overflow:auto;/* automatico deixa como o scroll*/
+    background-color: green;
+}
+
+div.ex4 {
+    overflow: clip; /*oculta */
+    background-color: grey;
+}
+
+div.ex5 {
+    overflow: visible; /* deixa visivel o que transbordou para fora da caixa*/
+    background-color: pink;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    font-size: 40px;
+    padding: 5%;
+    text-align: center;
+    background-color: rgb(76 73 73 / 81%);
+    color: rgb(241, 241, 241);
+}
+
+.header::first-letter {
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+}
+
+.navBar {
+    width: 30%;
+    background-color: #a3a3a3;
+    padding: 30px;
+}
+
+.content{
+    width: 70%;
+    background-color: #d8d8d8;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+}
+
+.footer {
+    background-color: grey;
+    text-align: center;
+    padding: 20px 0;
+}

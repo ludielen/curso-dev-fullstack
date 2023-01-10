@@ -1,0 +1,18 @@
+body {
+    background: url(http://chiase24.com/wp-content/uploads/2022/02/Tong-hop-cac-hinh-anh-background-dep-nhat-21.jpg);
+    color: white;
+}
+
+
+ul {
+    background: grey;
+    padding: 20px;
+    opacity: 0.5; /*nivel de transparencia do elemento*/
+    /*display: none; remove o elemento da tela e desocupa a area.*/
+    /*visibility: hidden; oculta o elemento e mantem a area ocupada*/
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+} 

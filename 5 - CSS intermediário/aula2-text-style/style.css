@@ -1,0 +1,21 @@
+h1 {
+    text-shadow: 2px 2px red; /*sombreamento no texto*/
+}
+
+p { /* Propriedades de estilo de texto*/
+    font-size: 30px;
+    color: green;
+    text-align: justify;
+    font-weight: bold; /* fica tudo em negrito*/
+    font-style: italic; /* o texto fica itálico*/
+   /* font-variant: small-caps; */
+    text-transform: uppercase; /*deixa letras todas maiuscula ou tudo minuscula*/
+    text-indent: 50px; /* deixar o inicio do texto com espaço como os paragrafos de livros*/
+    word-spacing: 20px; /* cada frase terá um espaçamento*/
+    line-height: 50px; /* espaçamento na altura da linha */
+}
+
+a {
+    text-decoration: line-through; /* none tira o sublinhado do link, line-through deixa riscado emcima*/
+    letter-spacing: 20px; /* espaçamento entre as letras*/
+}
