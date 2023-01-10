@@ -1,0 +1,29 @@
+.exemplo1 p.red { /*combinadores*/
+    color:red;
+}
+
+.margin {
+    margin: 50px;
+}
+
+h1, h2, h3 {
+    color: blue;
+}
+
+.exemplo2 > p { /* > filho direto, adiciona cor azul */
+    color:blue;
+}
+
+.ex {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.exemplo3 + p { /* sinal + ele indica para estilizar o próximo e o primeiro elemento irmão*/
+    color:red;
+}
+
+.exemplo4 ~ p { /*sinal ~ estiliza todos os irmão diretos*/
+    color:green;
+}

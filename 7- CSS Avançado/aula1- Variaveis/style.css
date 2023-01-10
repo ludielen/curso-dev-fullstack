@@ -1,0 +1,21 @@
+/*Variaveis usada para tratar das cores do site quando se tem as mesmas cores repetidamente*/
+:root { /* elemento raiz*/
+    --color-primary: rgb(87, 20, 20); /*criado a variavel (--color- primary)*/
+    --color-secondary: rgb(79, 147, 199);
+
+    --spacing: 16px;
+}
+
+
+h1 {
+    color: var(--color-primary); /*adicionado a variavel criada em cima para todos h1*/
+}
+
+h2 {
+    color: var(--color-secondary);
+}
+
+button {
+    background: rgb(87, 20, 20);
+    color:white;
+}

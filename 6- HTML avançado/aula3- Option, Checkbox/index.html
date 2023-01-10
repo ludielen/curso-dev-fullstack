@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="salvar.html">
+        <label for="nome">Nome:</label>
+        <!--Tag semantica fica fora do campo define um rótulo-->
+        <input id="nome" name="nome" type="text" placeholder="Digite seu nome" required>
+        <!--name = nomear cada um dos campos-->
+        <br><br>
+
+        <label>E-mail:</label>
+        <input name="email" type="email" placeholder="Digite seu e-mail">
+
+        <br><br>
+
+        <label>Senha:</label>
+        <input name="senha" type="password" placeholder="senha">
+
+        <br><br>
+
+        <label>telefone:</label>
+        <input type="tel">
+
+        <br><br>
+
+        <!--Exemplo de OPTION-->
+        <label>Sexo:</label>
+        <br>
+        <input name="sexo" type="radio" value="masculino"><label>Masculino</label>
+        <!--radio = define um botão de radio são 
+        botões de opções permitem que o usuario selecione apenas uma de um numero limitado de opções-->
+        <br>
+        <input name="sexo" type="radio" value="feminino"><label>Feminino</label>
+        <br>
+        <input name="sexo" type="radio" value="outro"><label>Outro</label>
+
+        <br><br>
+        <!--**********************************-->
+
+        <!--Exemplo de CHECKBOX criar um grupo de caixa de seleção-->
+        <label>Habilidades:</label>
+        <br>
+        <input name="habilidades" type="checkbox" value="html" id="html"><label for="html">html</label>
+        <br>
+        <input name="habilidades" type="checkbox" value="css" id="css"><label for="css">css</label>
+        <br>
+        <input name="habilidades" type="checkbox" value="javascript" id="javascript"><label
+            for="javascript">Javascript</label>
+
+        <!--***********************************-->
+        <br><br>
+        <input type="file" accept="application/pdf">
+        <!--escolhe arquivos em qualquer formato-->
+
+        <br><br>
+        <!--Select caixa de seleção -->
+
+        <label>Cidade:</label>
+        <br>
+        <select name="cidade">
+            <option selected value="">--Selecione--</option>
+            <option value="Porto Alegre">Porto Alegre</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+            <option value="São Paulo">São Paulo</option>
+        </select>
+
+        <br><br>
+
+        <label>Carro:</label>
+        <br>
+        <select>
+            <optgroup label="Honda">
+                    <!--OPTGROUP = Serve para agrupar elementos que são semelhantes dentro
+                da listagem-->
+                <option value="Civic">Civic</optgroup>
+            </optgroup>
+            <optgroup label="GM">
+               <option value="Celta">Celta</optgroup>
+            </optgroup>
+            <optgroup label="Fiat">
+              <option value="Uno">Uno</optgroup>
+            </optgroup>
+        </select>
+
+        <!--**********************************-->
+        <br><br>
+        <button>Enviar</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.example {
+    color: black;
+    text-align: center;
+    list-style: none;
+}
+
+.example-item {
+    display: block;
+    width: 33.333%;
+    height: 150px;
+
+}
+
+.example-item-first {
+    background-color: red;
+}
+
+.example-item-second {
+    background-color:yellow;
+    margin-left:auto;
+    
+}
+
+.example-item-third {
+    background-color: rgb(237, 70, 98);
+    margin-left: auto;
+    margin-right: auto;
+}

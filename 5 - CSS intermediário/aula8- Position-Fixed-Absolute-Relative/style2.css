@@ -1,0 +1,20 @@
+
+.conteudo {
+    position: relative; /*todos elementos que são absolutos que estejam dentro dele
+    sejam posicionados relativamente a ele e não ao body / body por padrão é relative */
+    height: 500px;
+    border: 1px solid black;
+    padding:20px;
+}
+
+.quadrado {
+    position: absolute; /*sempre vai ser absoluto ao primeiro pai que ele encontrar
+    que for relative*/
+    left: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 12px;
+}

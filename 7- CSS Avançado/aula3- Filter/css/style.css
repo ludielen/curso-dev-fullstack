@@ -1,0 +1,11 @@
+img {
+  filter:blur(10px); /*serve para borrar a imagem e tem que ser em PX*/
+
+    /*filter:contrast(%); contraste da img usando %*/
+    
+}
+
+.box{
+    filter:brightness(10%); /*ajuste de brilho*/
+}
+

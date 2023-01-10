@@ -1,0 +1,69 @@
+body {
+  margin: 100px;
+}
+
+.box {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  /*relativo ao pai não ao body*/
+  animation-name: minhaAnimacao;
+  /*nome da animação*/
+  animation-duration: 4s;
+  /*duração animação*/
+  animation-delay: 2s;
+  /*atraso de 2s para iniciar*/
+  animation-iteration-count: infinite;
+  /*quantas vezes a animação será executada*/
+  animation-direction: alternate-reverse;
+  /* direção animação (normal = para frente), (reverse = para tras), (alternate = 1 para frente, depois para tras), (alternate-reverse= 1 para tras depois para frente)*/
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  /*especifica a curva de velocidade da animação*/
+
+  /*animation: example 5s linear 2s infinite alternate; /o mesmo efeito de animação pode ser obtido usando animation propriedade abreviada*/
+
+}
+
+@keyframes minhaAnimacao {
+
+  /*@propriedade / nomeAnimação, especificar estilos CSS dentro da regra @keyframes*/
+  /*from { 0% (inicial)
+      background-color: red;
+
+  }
+podemos utilizar from e to ou entao % ao usar porcentagem, podemos adicionar quantas alterações de estilo desejar. 
+  to { 100% (completo)
+      background-color: yellow;
+      transform: rotate(360deg);
+  }*/
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}

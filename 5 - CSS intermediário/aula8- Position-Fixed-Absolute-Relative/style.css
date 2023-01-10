@@ -1,0 +1,35 @@
+/*Position: fixed, Absolute or Relative*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.quadrado {
+    position: fixed; /*o elemento fica fixo na tela e acompanha o scroll*/
+    bottom: 200px;
+    left:760px;
+    width: 50px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 12px;
+}
+
+.circulo {
+    position:absolute; /*o elemento fica absolutamente parado no local que eu determinar
+     usando top, left, right, bottom*/
+     top: 100px;
+     left: 760px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size:12px;
+}
+
+p {
+    margin:50px;
+    width: 300px;
+}
