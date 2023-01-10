@@ -1,0 +1,27 @@
+
+body {
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:400px) { /*de 0 a 400 a cor de fundo será azul e a letra preta*/
+    body {
+        background-color: blue;
+        color: black;
+    }
+    p {
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 401px) and (max-width:600px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    body {
+    background-color: red;
+    }
+}
